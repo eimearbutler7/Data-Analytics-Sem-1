@@ -23,9 +23,37 @@ while i > 1:
     break
 print(i)      
     
+ ######## Solution 3 - in progress, to test #####################
  
+n = int()
+start = [n]
+x = 11
+
+if n > 3000000:
+  quit
+while n < 3000000:
+  if n % x == 0:
+    x = (x + 1)
+    print(n)
+  else:
+    n = 3 * n + 1
+    print(n)
+    start.append(n)  
     
-    
+#or Compute the lowest common multiple of a and b
+
+def lcm(11, 12):
+  print 11 * 12 / gcd(11, 12)
+
+#or
+
+from fractions import gcd
+a = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]   #will work for an int array of any length
+lcm = a[0]
+for i in a[1:]:
+  lcm = lcm*i/gcd(lcm, i)
+print lcm
+
 #Testing Sum all Even numbers 1 to 100
 
 sum = 0
