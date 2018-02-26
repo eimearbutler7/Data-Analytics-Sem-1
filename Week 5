@@ -2,6 +2,16 @@
 
 ######### Solution 1 ###############################
 
+i = 20
+
+while i > 1:
+  i += 20
+  if i % 11 == 0 and i % 12 == 0 and i % 13 == 0 and i % 14 == 0 and i % 15 == 0 and i % 16 == 0 and i % 17 == 0 and i % 18 == 0 and i % 19 == 0: 
+    break
+print(i) 
+
+######### Solution 2 ###############################
+
 x = 1
 for i in range (1,21):
     if (x % i) > 0: 
@@ -9,22 +19,10 @@ for i in range (1,21):
             if (x * s) % i == 0:    
                 x = x * s
                 break
-print (x)
-
-
-######### Solution 2 ###############################
-
-
-i = 20
-
-while i > 1:
-  i += 20
-  if i % 11 == 0 and i % 12 == 0 and i % 13 == 0 and i % 14 == 0 and i % 15 == 0 and i % 16 == 0 and i % 17 == 0 and i % 18 == 0 and i % 19 == 0: 
-    break
-print(i)      
+print (x)     
     
- ######## Solution 3 - in progress, to test #####################
- 
+######## Solution 3 - in progress, to test #####################
+
 n = int()
 start = [n]
 x = 11
