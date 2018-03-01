@@ -1,4 +1,7 @@
-#Project Euler Question
+#Project Euler Question 5
+#2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+#What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+
 
 ######### Solution 1 ###############################
 
@@ -52,6 +55,20 @@ for i in a[1:]:
   lcm = lcm*i/gcd(lcm, i)
 print lcm
 
+#Project Euler Question 1
+#If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+# Find the sum of all the multiples of 3 or 5 below 1000
+
+sum = 0
+n = 1
+while n < 1000:
+  if n % 3 == 0:
+    sum = sum + n
+  elif n % 5 == 0:
+  n = n + 1
+  
+  print(sum)
+   
 #Testing Sum all Even numbers 1 to 100
 
 sum = 0
