@@ -31,7 +31,7 @@ print (x)
 numbers = [11,12,13,14,15,16,17,18,19]
 i = 1
 x = 1
-while x >= len(numbers):
+while x >= len(numbers): #or for n in numbers: if i % n == 0: 
   if i % numbers[x] == 0: 
     x = x + 1
   else:
