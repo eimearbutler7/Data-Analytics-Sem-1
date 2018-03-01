@@ -13,6 +13,7 @@ while i > 1:
     break
 print(i) 
 
+
 ######### Solution 2 ###############################
 
 x = 1
@@ -25,6 +26,19 @@ for i in range (1,21):
 print (x)     
     
 ######## Solution 3 - in progress, to test #####################
+
+
+numbers = [11,12,13,14,15,16,17,18,19]
+i = 1
+x = 1
+while x >= len(numbers):
+  if i % numbers[x] == 0: 
+    x = x + 1
+  else:
+    i = i + 20
+  print(i) 
+
+#or
 
 n = int()
 start = [n]
