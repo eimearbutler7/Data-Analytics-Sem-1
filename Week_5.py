@@ -29,7 +29,7 @@ print (x)
 
 i = 20
 
-for x in range(1:20): 
+for x in range(1,20): 
   if i % x == 0: 
     i = i + 20
   else:
