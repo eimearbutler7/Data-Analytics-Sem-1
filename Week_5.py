@@ -27,6 +27,16 @@ print (x)
     
 ######## Solution 3 - in progress, to test #####################
 
+i = 20
+
+for x in range(1:20): 
+  if i % x == 0: 
+    i = i + 20
+  else:
+    i = i + 20
+  print(i) 
+
+  #or
 
 numbers = [11,12,13,14,15,16,17,18,19]
 i = 1
