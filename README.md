@@ -8,3 +8,9 @@ Collatz Con, FizzBuzz, Is it Tuesday and if/elif loop
 
 ## Week 5 
 Sum all Even numbers 1 to 100 example, Project Euler Question solutions
+
+## Week 6 
+Formatting of IRIS petal sizes Fisher Data Set
+
+## Week 7
+Factorial Function
