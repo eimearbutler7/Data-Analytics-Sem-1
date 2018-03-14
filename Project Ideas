@@ -29,10 +29,21 @@ if guesses_left == 0:
 
 hobbies = []
 
-# Add your code below!
-
 for num in range(3):
   hobby =  raw_input("Tell me one of your favorite hobbies: ")
   hobbies.append(hobby)
 
 print hobbies
+
+#### Codecademy, Loops, Change It Up. Run thtouh list and flag when something meets "if Statement"
+
+fruits = ['banana', 'apple', 'orange', 'tomato', 'pear', 'grape']
+
+print 'You have...'
+for f in fruits:
+  print 'A', f
+  if f == 'tomato':
+    print 'A tomato is not a fruit!' # (It actually is.)
+    
+else:
+  print 'A fine selection of fruits!'
