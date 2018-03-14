@@ -1,4 +1,4 @@
-# Week 1 Fibonacci Program
+# Week 1 Fibonacci Program #Ian McLoughlin Example
 # A program that displays Fibonacci numbers.
 
 def fib(n):
@@ -22,7 +22,7 @@ print("Fibonacci number", x, "is", ans)
 
 
 
-# Week 2 Fibonacci Program
+# Week 2 Fibonacci Program #Ian McLoughlin Example
 # A program that displays Fibonacci numbers using people's names.
 
 def fib(n):
